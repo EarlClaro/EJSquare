@@ -2,24 +2,51 @@ footer {
     background-color: #ff8c94;
     color: white;
     text-align: center;
-    padding: 40px 20px; /* Increased padding */
+    padding: 20px;
     position: relative;
     bottom: 0;
     width: 100%;
-}
-
-footer p {
-    margin: 10px 0; /* Adjusted margin */
-    font-size: 16px; /* Adjusted font size */
-}
-
-footer a {
-    color: #fff;
-    font-weight: bold;
-    text-decoration: underline;
+  }
+  
+  footer p {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  footer a:hover {
+    color: #ffccd5;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 24px;
     transition: color 0.3s;
-}
-
-footer a:hover {
-    color: #e76c7b;
-}
+  }
+  
+  .social-icons a:hover {
+    color: #ffccd5;
+  }
+  
+  .shopee-icon {
+    width: 24px; /* Adjust size to match Font Awesome icons */
+    height: 24px;
+    transition: transform 0.3s;
+  }
+  
+  .shopee-icon:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
+  

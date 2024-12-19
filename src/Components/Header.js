@@ -5,12 +5,16 @@ function Header() {
   return (
     <header>
       <div className="logo">
-        <img src="ejsquare_logo.png" alt="Logo" />
+      <a href="/">
+          <img src="ejsquare_logo.png" alt="Logo" />
+        </a>
       </div>
       <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#products">Products</a>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="https://shopee.ph/ej_square#product_list" target="_blank" rel="noopener noreferrer">
+        Products
+        </a>
         <a href="#contact">Contact Us</a>
       </nav>
     </header>
