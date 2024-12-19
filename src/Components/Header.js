@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
       <div className="logo">
-        <img src="logo-placeholder.png" alt="Logo" />
+        <img src="ejsquare_logo.png" alt="Logo" />
       </div>
       <nav>
         <a href="#home">Home</a>

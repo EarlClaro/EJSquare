@@ -4,7 +4,7 @@ import '../CSS/Hero.css';
 function Hero() {
   return (
     <section className="hero">
-      <img src="hero-banner-placeholder.png" alt="Hero Banner" />
+      <img src="ejsquare_hero.jpg" alt="Hero Banner" class="hero"/>
     </section>
   );
 }
