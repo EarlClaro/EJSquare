@@ -15,8 +15,8 @@ function Header() {
         <a href="https://shopee.ph/ej_square#product_list" target="_blank" rel="noopener noreferrer">
         Products
         </a>
-        <a href="#contact">Contact Us</a>
-      </nav>
+        <a href="/contact">Contact Us</a>
+        </nav>
     </header>
   );
 }
